@@ -1,0 +1,62 @@
+#body{
+    text-align: center;
+    background-color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar_OMGH{
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+}
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    box-shadow: 3px 3px 10px 8px #d1d1d1;
+    border-radius: 25px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: aqua;
+    border-radius: 25px;
+}
+#home{
+    box-shadow: 2px 2px 8px 10px white;
+    transition: 0.5s;
+    color: white;
+    margin: 20px;
+}
+#work{
+    box-shadow: 2px 2px 8px 10px white;
+    transition: 0.5s;
+    color: white;
+    margin: 20px;
+}
+#bio{
+    box-shadow: 2px 2px 8px 10px white;
+    transition: 0.5s;
+    color: white;
+    margin: 20px;
+}
+#a{
+    color: white;
+}
+#a2{
+    color: white;
+}
+#a3{
+    color: white;
+}
+#work:hover{
+    box-shadow: 4px 4px 10px 12px white;
+}
+#bio:hover{
+    box-shadow: 4px 4px 10px 12px white;
+}
+#home:hover{
+    box-shadow: 4px 4px 10px 12px white;
+}
+#a1{
+    color: white;
+}
